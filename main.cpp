@@ -16,6 +16,8 @@ int main()
 {
  
 render_table(chessPieces);
+while (true){
 step(chessPieces);
+}
  return 0;
 }
